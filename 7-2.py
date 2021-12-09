@@ -5,7 +5,6 @@ s2=0
 n=int(input("times : "))
 for i in range (n):
     p1=random.choice(arr)
-    print(p1)
     p2=input("please enter your move : ")
     if (p1=="pepar" and p2=="stone") or (p1=="scissors" and p2=="paper") or (p1=="stone" and p2=="scissors"):
         s1=s1+1
