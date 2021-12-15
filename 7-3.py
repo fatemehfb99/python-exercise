@@ -1,6 +1,10 @@
-c=0
-s=input("please enter a sentence : ")
-for i in range (len(s)):
-    if (s[i]<='Z' and s[i]>='A') or (s[i]<='z' and s[i]>='a'):
-        c=c+1
-print(c)
+# c=1
+# s=input("please enter a sentence : ")
+# for i in s:
+#     if i=='  ':
+#         c=c+1
+# print(c)
+s=input("please enter sentence : ")
+a=s.split(" ")
+print(a)
+print(len(a))
